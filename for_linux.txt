@@ -7,7 +7,7 @@
 [
     {
         "name": "Run in out",
-        "shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\" <input.in >output.in"
+        "shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\" <input.in >output.out"
     }
 ]
 }
